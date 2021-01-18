@@ -2,7 +2,7 @@ import { Image, View, StyleSheet } from "react-native";
 
 import React from "react";
 import colors from "../config/colors";
-import AppText from "./AppText/AppText";
+import AppText from "./AppText";
 
 function Card({ title, subtitle, image }) {
   return (

@@ -23,6 +23,15 @@ function LoginScreen(props) {
         <AppFormField
           autoCapitalize="none"
           autoCorrect={false}
+          icon=""
+          keyboardType="email-address"
+          name="email"
+          placeholder="Email"
+          textContentType="emailAddress"
+        />
+        <AppFormField
+          autoCapitalize="none"
+          autoCorrect={false}
           icon="email"
           keyboardType="email-address"
           name="email"
