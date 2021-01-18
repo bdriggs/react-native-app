@@ -14,9 +14,10 @@ import Icon from "./app/components/Icon";
 import ListItemSeparator from "./app/components/ListItemSeparator";
 import ListItem from "./app/components/ListItem";
 import AccountScreen from "./app/screens/AccountScreen";
+import ListingScreen from "./app/screens/ListingScreen";
 
 export default function App() {
-  return <AccountScreen></AccountScreen>;
+  return <ListingScreen></ListingScreen>;
 }
 const styles = StyleSheet.create({
   container: {
